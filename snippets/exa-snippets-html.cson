@@ -1,4 +1,4 @@
-'.source.html':
+'.text.html':
   'exa-analytics element':
     'prefix': 'exa-analytics'
     'body': """
