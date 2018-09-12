@@ -2,23 +2,21 @@
   'exa-analytics element':
     'prefix': 'exa-analytics'
     'body': """
-    <exa-analytics data-bucket=${1:bucket-id}>
+    <exa-analytics data-bucket="${1:bucket-id}">
     \t${2}
     </exa-analytics>
     """
 
   'exa-clickthrough element':
   'prefix': 'exa-clickthrough'
-  'body': """
-  <img is='exa-clickthrough' data-images='${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}'/>
-  """
+  'body': '<img is="exa-clickthrough" data-images="${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}"/>'
 
   'exa flexbox-grid':
   'prefix': 'exa-grid'
   'body': """
-  <div class='grid grid--${1:stacking}'>
-  \t<div class='column column--3-of-12'><div></div></div>
-  \y<div class='column column--9-of-12'><div></div></div>
+  <div class="grid grid--${1:stacking}">
+  \t<div class="column column--3-of-12"><div></div></div>
+  \y<div class="column column--9-of-12"><div></div></div>
 	</div>
   """
 
@@ -32,9 +30,7 @@
 
   'exa image loader element':
   'prefix': 'exa-image-loader'
-  'body': """
-  <exa-image-loader data-images='${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}'></exa-image-loader>
-  """
+  'body': '<exa-image-loader data-images="${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}"></exa-image-loader>'
 
   'exa-analytics cdn':
     'prefix': 'exa-analytics-cdn'
