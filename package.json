@@ -1,6 +1,6 @@
 {
   "name": "exa-snippets-atom",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "exa ui snippets",
   "main": "index.js",
   "scripts": {
