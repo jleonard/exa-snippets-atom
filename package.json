@@ -1,0 +1,26 @@
+{
+  "name": "exa-snippets-atom",
+  "version": "0.0.0",
+  "description": "exa ui snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {"atom": ">=1.0.0 <2.0.0"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jleonard/exa-snippets-atom.git"
+  },
+  "keywords": [
+    "exa",
+    "atom",
+    "ui",
+    "snippets"
+  ],
+  "author": "thejohnleonard@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jleonard/exa-snippets-atom/issues"
+  },
+  "homepage": "https://github.com/jleonard/exa-snippets-atom#readme"
+}
