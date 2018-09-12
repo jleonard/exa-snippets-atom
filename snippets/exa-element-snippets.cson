@@ -4,7 +4,7 @@
     'body': """
     <div class="alert alert--${1:information}">
     /t<p class="alert__message" role="alert">
-    /t/t${2:Message text goes here.}
+    /t/t${2:Message text goes here}
     /t/t<button class="alert__action">${3:Button Label}</button>
     /t/t<a href="#" class="alert__action">${4:Link Label}</a>
     /t</p>
