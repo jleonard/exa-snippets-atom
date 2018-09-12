@@ -32,7 +32,6 @@
     \t\t<button is="exa-confirm-button">Confirm</button>
     \t</footer>
     </exa-dialog>
-
     <button data-trigger-dialog='example-dialog">Launch Dialog</button>
     """
 
