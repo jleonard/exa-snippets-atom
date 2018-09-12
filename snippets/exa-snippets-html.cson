@@ -17,20 +17,20 @@
     'prefix': 'exa-dialog'
     'body': """
     <exa-dialog id="example-dialog" hidden>
-    /t<header class="dialog__header">
-    /t/t<h2 class="dialog__title">${1:title}</h2>
-    /t/t<button is="exa-cancel-button">
-    /t/t/t<span class="screen-reader-text">Close Dialog</span>
-    /t/t/t<span aria-hidden="true" role="presentation">x</span>
-    /t/t</button>
-    /t</header>
-    /t<div class="dialog__body">
-    /t/t${2}
-    /t</div>
-    /t<footer class="dialog__footer">
-    /t/t<button is="exa-cancel-button">Cancel</button>
-    /t/t<button is="exa-confirm-button">Confirm</button>
-    /t</footer>
+    \t<header class="dialog__header">
+    \t\t<h2 class="dialog__title">${1:title}</h2>
+    \t\t<button is="exa-cancel-button">
+    \t\t\t<span class="screen-reader-text">Close Dialog</span>
+    \t\t\t<span aria-hidden="true" role="presentation">x</span>
+    \t\t</button>
+    \t</header>
+    \t<div class="dialog__body">
+    \t\t${2}
+    \t</div>
+    \t<footer class="dialog__footer">
+    \t\t<button is="exa-cancel-button">Cancel</button>
+    \t\t<button is="exa-confirm-button">Confirm</button>
+    \t</footer>
     </exa-dialog>
 
     <button data-trigger-dialog='example-dialog">Launch Dialog</button>
@@ -95,7 +95,7 @@
       <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>${1:page}</title>
+        <title>${1:page}<\title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://dizwlgtu4iq45.cloudfront.net/common/css/common.css" media="all" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/elements/elements.css">
