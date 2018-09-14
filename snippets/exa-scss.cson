@@ -3,9 +3,9 @@
     'prefix': 'exa-font-face'
     'body': """
     @include font-face(
-    /t${1:\$ttf:'fonts/Open_Sans/OpenSans-Regular.ttf'}
-    /t${2:\$woff:'fonts/Open_Sans/OpenSans-Regular.woff'}
-    /t${3:\$woff:'fonts/Open_Sans/OpenSans-Regular.woff'}
+    \t${1:\$ttf:'fonts/Open_Sans/OpenSans-Regular.ttf'}
+    \t${2:\$woff:'fonts/Open_Sans/OpenSans-Regular.woff'}
+    \t${3:\$woff:'fonts/Open_Sans/OpenSans-Regular.woff'}
     ){
     	font-family: '${4:Open Sans}';
     	font-weight: normal;
