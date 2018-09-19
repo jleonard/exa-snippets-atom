@@ -20,7 +20,7 @@
     \t<header class="dialog__header">
     \t\t<h2 class="dialog__title">${1:title}</h2>
     \t\t<button is="exa-cancel-button">
-    \t\t\t<span class="screen-reader-text">Close Dialog</span>
+    \t\t\t<span class="screen-reader-content">Close Dialog</span>
     \t\t\t<span aria-hidden="true" role="presentation">x</span>
     \t\t</button>
     \t</header>
@@ -32,7 +32,7 @@
     \t\t<button is="exa-confirm-button">Confirm</button>
     \t</footer>
     </exa-dialog>
-    <button data-trigger-dialog='example-dialog">Launch Dialog</button>
+    <button data-trigger-dialog='example-dialog'>Launch Dialog</button>
     """
 
   'exa flexbox-grid':

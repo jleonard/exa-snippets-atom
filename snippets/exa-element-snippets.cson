@@ -10,3 +10,85 @@
     \t</p>
     </div>
     """
+
+  'exa-table':
+    'prefix': 'exa-table'
+    'body': """
+    <table>
+    \t<caption>${1:Table Caption}</caption>
+    \t<thead>
+    \t\t<tr>
+    \t\t\t<th>Company</th>
+    \t\t\t<th>Symbol</th>
+    \t\t\t<th>Open</th>
+    \t\t\t<th>High</th>
+    \t\t\t<th>Low</th>
+    \t\t\t<th>Close</th>
+    \t\t\t<th>Net<br>Chg</th>
+    \t\t\t<th>%Chg</th>
+    \t\t\t<th>Vol</th>
+    \t\t\t<th>52 Week<br>High</th>
+    \t\t\t<th>52 Week<br>Low</th>
+    \t\t\t<th>Div</th>
+    \t\t\t<th>Yield</th>
+    \t\t\t<th>PE</th>
+    \t\t\t<th>Yth<br>%Chg</th>
+    \t\t</tr>
+    \t</thead>
+    \t<tbody>
+    \t\t<tr>
+    \t\t\t<td>Xenia Hotels &amp; Resorts</td>
+    \t\t\t<td><a href="#">XHR</a></td>
+    \t\t\t<td class='td--numeric'>20.44</td>
+    \t\t\t<td class='td--numeric'>20.45</td>
+    \t\t\t<td class='td--numeric'>19.54</td>
+    \t\t\t<td class='td--numeric'>19.57</td>
+    \t\t\t<td class='td--numeric'><span class='value-negative'>-0.84</span></td>
+    \t\t\t<td class='td--numeric'><span class='value-negative'>-4.12</span></td>
+    \t\t\t<td class='td--numeric'>399,037</td>
+    \t\t\t<td class='td--numeric'>22.76</td>
+    \t\t\t<td class='td--numeric'>16.21</td>
+    \t\t\t<td class='td--numeric'>1.10</td>
+    \t\t\t<td class='td--numeric'>5.62</td>
+    \t\t\t<td class='td--numeric'>15.24</td>
+    \t\t\t<td class='td--numeric'><span class='value-negative'>-9.36</span></td>
+    \t\t</tr>
+    \n
+    \t\t<tr>
+    \t\t\t<td>Xerium Technologies</td>
+    \t\t\t<td><a href="#">XRM</a></td>
+    \t\t\t<td class='td--numeric'>4.47</td>
+    \t\t\t<td class='td--numeric'>4.55</td>
+    \t\t\t<td class='td--numeric'>4.47</td>
+    \t\t\t<td class='td--numeric'>4.52</td>
+    \t\t\t<td class='td--numeric'>0.05</td>
+    \t\t\t<td class='td--numeric'>1.12</td>
+    \t\t\t<td class='td--numeric'>41,432</td>
+    \t\t\t<td class='td--numeric'>7.75</td>
+    \t\t\t<td class='td--numeric'>3.70</td>
+    \t\t\t<td class='td--numeric'>...</td>
+    \t\t\t<td class='td--numeric'>...</td>
+    \t\t\t<td class='td--numeric'>...</td>
+    \t\t\t<td class='td--numeric'>6.10</td>
+    \t\t</tr>
+    \n
+    \t\t<tr>
+    \t\t\t<td>Xerox</td>
+    \t\t\t<td><a href="#">XRX</a></td>
+    \t\t\t<td class='td--numeric'>31.25</td>
+    \t\t\t<td class='td--numeric'>31.37</td>
+    \t\t\t<td class='td--numeric'>29.80</td>
+    \t\t\t<td class='td--numeric'>29.80</td>
+    \t\t\t<td class='td--numeric'><span class='value-negative'>-1.38</span></td>
+    \t\t\t<td class='td--numeric'><span class='value-negative'>-4.43</span></td>
+    \t\t\t<td class='td--numeric'>3,397,387</td>
+    \t\t\t<td class='td--numeric'>37.42</td>
+    \t\t\t<td class='td--numeric'>26.64</td>
+    \t\t\t<td class='td--numeric'>1.00</td>
+    \t\t\t<td class='td--numeric'>3.36</td>
+    \t\t\t<td class='td--numeric'>50.51</td>
+    \t\t\t<td class='td--numeric'>2.23</td>
+    \t\t</tr>
+    \t</tbody>
+    </table>
+    """

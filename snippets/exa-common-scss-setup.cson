@@ -11,7 +11,3 @@
     	font-weight: normal;
     }
     """
-
-  'exa-layout mixin':
-    'prefix': 'exa-layout'
-    'body': '@include ${1:horizontal}-layout(${2:1});'
