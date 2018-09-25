@@ -13,6 +13,18 @@
     <img is="exa-clickthrough" data-images="${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}"/>
     """
 
+  'exa-click-effect element':
+    'prefix': 'exa-click-effect'
+    'body': '<exa-click-effect></exa-click-effect>'
+
+  'exa-demo-path element':
+    'prefix': 'exa-demo-path'
+    'body': """
+    <exa-demo-path data-path='.on-path'></exa-demo-path>
+    <button>Inactive Button</button>
+    <button class='on-path'>Active Button</button>
+    """
+
   'exa dialog':
     'prefix': 'exa-dialog'
     'body': """

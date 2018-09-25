@@ -1,38 +1,46 @@
 '.text.html':
   'exa-dialog cdn':
-    'prefix': 'exa-dialog-cdn'
+    'prefix': 'exa-cdn-dialog'
     'body': """
     <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/dialog/dialog.css" >
     <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/dialog/dialog.js"></script>
     """
 
   'exa flexbox-grid cdn':
-    'prefix': 'exa-grid-cdn'
+    'prefix': 'exa-cdn-grid'
     'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/flexbox-grid/flexbox-grid.css">'
 
   'exa flexbox grid cdn':
-    'prefix': 'exa-flexbox-grid-cdn'
+    'prefix': 'exa-cdn-flexbox-grid'
     'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/flexbox-grid/flexbox-grid.css">'
 
   'exa-analytics cdn':
-    'prefix': 'exa-analytics-cdn'
+    'prefix': 'exa-cdn-analytics'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/analytics/"></script>'
 
   'exa-common cdn':
-    'prefix': 'exa-common-cdn'
+    'prefix': 'exa-cdn-common'
     'body': """
     <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/common/css/common.css" >
     <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/common/js/common.js"></script>
     """
 
   'exa-clickthrough cdn':
-    'prefix': 'exa-clickthrough-cdn'
+    'prefix': 'exa-cdn-clickthrough'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/clickthrough/clickthrough.element.js"></script>'
 
   'exa-image-loader cdn':
-    'prefix': 'exa-image-loader-cdn'
+    'prefix': 'exa-cdn-image-loader'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/exa-image-loader/image-loader.element.js"></script>'
 
   'exa-elements cdn':
-    'prefix': 'exa-elements-cdn'
+    'prefix': 'exa-cdn-elements'
     'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/elements/elements.css" >'
+
+  'exa-click-effect cdn':
+    'prefix': 'exa-cdn-click-effect'
+    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/click-effect/click-effect.element.js"></script>'
+
+  'exa-demo-path cdn':
+    'prefix': 'exa-cdn-demo-path'
+    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/demo-path/demo-path.element.js"></script>'
