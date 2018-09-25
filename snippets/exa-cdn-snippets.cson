@@ -42,7 +42,7 @@
 
   'exa-demo-path cdn':
     'prefix': 'exa-cdn-demo-path'
-    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/demo-path/demo-path.element.js"></script>'
+    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/demo-path/exa-demo-path.element.js"></script>'
 
   'exa-elements cdn':
     'prefix': 'exa-cdn-elements'
