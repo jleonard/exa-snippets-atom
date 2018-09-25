@@ -67,8 +67,8 @@
   'exa section':
     'prefix': 'exa-section'
     'body': """
-    <section>
-      <${1:h2} class='section__title'>${2:Section Title}</${1:h2}>
+    <section aria-labelledby="${1:section-title}" role="main|region|complimentary">
+      <${2:h2} id="${1:section-title}" class='section__title'>${3:Section Title}</${2:h2}>
     </section>
     """
 
