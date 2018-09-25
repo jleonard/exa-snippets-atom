@@ -6,6 +6,13 @@
     <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/dialog/dialog.js"></script>
     """
 
+  'exa-tabs cdn':
+    'prefix': 'exa-cdn-tabs'
+    'body': """
+    <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/tabs/tabs.css" >
+    <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/tabs/tabs.js"></script>
+    """
+
   'exa flexbox-grid cdn':
     'prefix': 'exa-cdn-grid'
     'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/flexbox-grid/flexbox-grid.css">'
