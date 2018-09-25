@@ -56,5 +56,5 @@
     'prefix': 'exa-cdn-skip-nav'
     'body': """
     <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/skip-nav/skip-nav.css" >
-    <script src="https://dizwlgtu4iq45.cloudfront.net/skip-nav/skip-nav.element.js"></script>
+    <script src="https://dizwlgtu4iq45.cloudfront.net/skip-nav/exa-skip-nav.element.js"></script>
     """
