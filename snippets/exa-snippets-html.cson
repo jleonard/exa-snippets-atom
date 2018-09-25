@@ -64,6 +64,14 @@
     'prefix': 'exa-image-loader'
     'body': '<exa-image-loader data-images="${1:https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-01.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-02.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-03.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-04.png,https://dizwlgtu4iq45.cloudfront.net/clickthrough/example/coin-05.png}"></exa-image-loader>'
 
+  'exa section':
+    'prefix': 'exa-section'
+    'body': """
+    <section>
+      <${1:h2} class='section__title'>${2:Section Title}</${1:h2}>
+    </section>
+    """
+
   'exa html template':
     'prefix': 'exa-page'
     'body': """
