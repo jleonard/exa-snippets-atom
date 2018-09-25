@@ -40,6 +40,12 @@
     \t\t\t<a href="#">Narc policy.</a>
     \t\t</div>
     \t\t<div class="column--full">
+    \t\t\t<label class="switch">
+    \t\t\t\t<input type="checkbox"/>
+    \t\t\t\t<span>Email me 6x a day</span>
+    \t\t\t</label>
+    \t\t</div>
+    \t\t<div class="column--full">
     \t\t\t<fieldset>
     \t\t\t\t<legend>Do you like anchovies?</legend>
     \t\t\t\t<label class="radio">
