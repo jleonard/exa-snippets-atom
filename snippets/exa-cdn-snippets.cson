@@ -29,14 +29,6 @@
     'prefix': 'exa-cdn-clickthrough'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/clickthrough/clickthrough.element.js"></script>'
 
-  'exa-image-loader cdn':
-    'prefix': 'exa-cdn-image-loader'
-    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/exa-image-loader/image-loader.element.js"></script>'
-
-  'exa-elements cdn':
-    'prefix': 'exa-cdn-elements'
-    'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/elements/elements.css" >'
-
   'exa-click-effect cdn':
     'prefix': 'exa-cdn-click-effect'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/click-effect/click-effect.element.js"></script>'
@@ -44,3 +36,18 @@
   'exa-demo-path cdn':
     'prefix': 'exa-cdn-demo-path'
     'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/demo-path/demo-path.element.js"></script>'
+
+  'exa-elements cdn':
+    'prefix': 'exa-cdn-elements'
+    'body': '<link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/elements/elements.css" >'
+
+  'exa-image-loader cdn':
+    'prefix': 'exa-cdn-image-loader'
+    'body': '<script src="https://dizwlgtu4iq45.cloudfront.net/exa-image-loader/image-loader.element.js"></script>'
+
+  'exa-skip-nav cdn':
+    'prefix': 'exa-cdn-skip-nav'
+    'body': """
+    <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/skip-nav/skip-nav.css" >
+    <script src="https://dizwlgtu4iq45.cloudfront.net/skip-nav/skip-nav.element.js"></script>
+    """
