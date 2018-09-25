@@ -25,6 +25,10 @@
     <button class='on-path'>Active Button</button>
     """
 
+  'exa-skip nav element':
+    'prefix': 'exa-skip-nav'
+    'body': '<exa-skip-nav></exa-skip-nav>'
+
   'exa dialog':
     'prefix': 'exa-dialog'
     'body': """
