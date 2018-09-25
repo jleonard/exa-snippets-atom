@@ -1,8 +1,12 @@
 '.text.html':
+  'exa-button':
+    'prefix': 'exa-button'
+    'body': '<button class="button--${1:bordered|flipper|link-appearance}">${2:Text}</button>'
+
   'exa-alert':
     'prefix': 'exa-alert'
     'body': """
-    <div class="alert alert--${1:information}">
+    <div class="alert alert--${1:information|warning|error}" role='alert'>
     \t<p class="alert__message" role="alert">
     \t\t${2:Message text goes here}
     \t\t<button class="alert__action">${3:Button Label}</button>
@@ -90,5 +94,31 @@
     \t\t\t<td class='td--numeric'>2.23</td>
     \t\t</tr>
     \t</tbody>
+    </table>
+    """
+
+  'exa-table-vertical':
+    'prefix': 'exa-table-vertical'
+    'body': """
+    <table class='table--vertical'>
+      <caption>${1:Table Caption}</caption>
+      <tbody>
+        <tr>
+          <td>Previous Close</td>
+          <td>159.540</td>
+        </tr>
+        <tr>
+          <td>Open</td>
+          <td>160.290</td>
+        </tr>
+        <tr>
+          <td>Bid</td>
+          <td>158.84 x 100</td>
+        </tr>
+        <tr>
+          <td>Ask</td>
+          <td>158.85 x 100</td>
+        </tr>
+      </tbody>
     </table>
     """

@@ -90,3 +90,21 @@
     \t</label>
     </fieldset>
     """
+
+  'exa-checkbox':
+    'prefix': 'exa-checkbox'
+    'body': """
+    <label class="checkbox">
+    \t<input type="checkbox"/>
+    \t<span>${1:This is the label}</span>
+    </label>
+    """
+
+  'exa-switch':
+    'prefix': 'exa-switch'
+    'body': """
+    <label class="switch">
+    \t<input type="checkbox"/>
+    \t<span>${1:This is the label}</span>
+    </label>
+    """

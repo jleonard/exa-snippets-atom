@@ -56,7 +56,7 @@
       <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>${1:page}<\title>
+        <title>${1:page}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://dizwlgtu4iq45.cloudfront.net/common/css/common.css" media="all" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/elements/elements.css">
