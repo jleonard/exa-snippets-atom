@@ -7,6 +7,30 @@
     </exa-analytics>
     """
 
+  'exa-tabs element':
+    'prefix': 'exa-tabs'
+    'body': """
+    <exa-tabs>
+    \t<ul>
+    \t\t<li>${1:Section One}</li> <-1
+    \t\t<li>${2:Tab Two}</li> <- 2
+    \t\t<li>${3:Tab Three}</li> <-3
+    \t</ul>
+    \t<section aria-labelledby="${6:tab-one-title}" role="${5:main|region|complimentary}">
+    \t\t<${4:h2} id="${6:tab-one-title}" class='section__title'>${1:Section One}</${4:h2}>
+    \t\t<!-- tab one content -->
+    \t</section>
+    \t<section aria-labelledby="${7:tab-two-title}" role="${5:main|region|complimentary}">
+    \t\t<${4:h2} id="${7:tab-two-title}" class='section__title'>${2:Section Two}</${4:h2}>
+    \t\t<!-- tab two content -->
+    \t</section>
+    \t<section aria-labelledby="${8:tab-three-title}" role="${5:main|region|complimentary}">
+    \t\t<${4:h2} id="${8:tab-three-title}" class='section__title'>${3:Section Title}</${4:h2}>
+    \t\t<!-- tab three content -->
+    \t</section>
+    </exa-tabs>
+    """
+
   'exa-clickthrough element':
     'prefix': 'exa-clickthrough'
     'body': """
