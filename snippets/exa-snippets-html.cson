@@ -27,7 +27,7 @@
 
   'exa-skip nav element':
     'prefix': 'exa-skip-nav'
-    'body': '<exa-skip-nav></exa-skip-nav>'
+    'body': '<exa-skip-nav data-selector="${1:section__title}"></exa-skip-nav>'
 
   'exa dialog':
     'prefix': 'exa-dialog'
