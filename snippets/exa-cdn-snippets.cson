@@ -10,7 +10,7 @@
     'prefix': 'exa-cdn-tabs'
     'body': """
     <link rel="stylesheet" type="text/css" href="https://dizwlgtu4iq45.cloudfront.net/tabs/tabs.css" >
-    <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/tabs/tabs.js"></script>
+    <script type="text/javascript" src="https://dizwlgtu4iq45.cloudfront.net/tabs/exa-tabs.element.js"></script>
     """
 
   'exa flexbox-grid cdn':
